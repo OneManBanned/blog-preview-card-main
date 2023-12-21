@@ -33,6 +33,9 @@ html {
 body {
     background-color: var(--yellow);
     min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 main {
@@ -51,6 +54,7 @@ article>* {
 img {
     border-radius: .75em;
     margin-block-end: 1.5rem;
+    width: 100%;
 }
 
 h1 {
@@ -75,6 +79,7 @@ h2 {
 
 .description {
     font-size: .9em;
+    font-weight: var(--regular);
     color: var(--grey);
 }
 
@@ -90,6 +95,7 @@ figure {
 
 figcaption {
     font-weight: var(--bold);
+    font-size: .75em;
     margin-inline-start: 1em;
 }
 
@@ -113,6 +119,11 @@ figcaption {
         margin-block: .85rem;
     }
 
+    .description {
+        font-size: .8em;
+        line-height: 1.5em;
+    }
+
     .avatar {
         width: 1.6rem;
     }
@@ -121,16 +132,4 @@ figcaption {
         font-size: .7rem;
     }
 
-}
-
-/* Utilities */
-
-.flex-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.full-width {
-    width: 100%;
 }
