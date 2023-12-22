@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/blog-preview-card-solution-ciAuG7SREh))
-- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://onemanbanned.github.io/blog-preview-card-main/))
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/blog-preview-card-solution-ciAuG7SREh))
+- Live Site URL: [Add live site URL here]](https://onemanbanned.github.io/blog-preview-card-main/))
 
 ### Built with
 
