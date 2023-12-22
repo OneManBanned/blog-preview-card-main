@@ -47,13 +47,12 @@ main {
     box-shadow: .5em .5em var(--black);
 }
 
-article>* {
-    margin-block-end: 1rem;
+article {
+    margin-block-start: 1em;
 }
 
 img {
     border-radius: .75em;
-    margin-block-end: 1.5rem;
     width: 100%;
 }
 
@@ -67,25 +66,28 @@ h1 {
 }
 
 .published {
-    margin-block-start: 1.25rem;
     font-size: .8em;
     font-weight: var(--regular);
+    margin-block-start: 1em;
 }
 
 h2 {
     font-size: 1.25em;
     font-weight: var(--bold);
+    margin-block: -.15em .75em;
+    color: var(--black);
+    transition: color .25s ease-in-out;
 }
 
 .description {
     font-size: .9em;
     font-weight: var(--regular);
     color: var(--grey);
+    margin-block-end: 1.25em;
 }
 
 .avatar {
     width: 2.25em;
-    margin: 0;
 }
 
 figure {
@@ -103,20 +105,17 @@ figcaption {
 
 @media (min-width: 23.5rem) {
     main {
-        max-width: 19rem;
-        padding: 1.25rem
-    }
-
-    img {
-        margin-block-end: 1rem;
+        max-width: 19.25rem;
+        padding: 1.1rem
     }
 
     h1 {
         font-size: .7em;
     }
 
-    .published {
-        margin-block: .85rem;
+    h2:hover {
+        color: var(--yellow);
+        cursor: pointer;
     }
 
     .description {
@@ -131,5 +130,4 @@ figcaption {
     figcaption {
         font-size: .7rem;
     }
-
 }
